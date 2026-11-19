@@ -1,154 +1,160 @@
-# WHO DESIGNED THIS THING?!
-### Episode 01: Creating an Account
+# Who Designed This Thing?!
 
-## SCENE 1 — REGISTRATION
+**A comedy-driven UX experience by Code with Samuel Benny.**
 
-*You open a website and click "Create Account".*
+What happens when a simple account registration process becomes an unnecessarily complicated journey?
 
-**Website:** Create your account.
+Welcome to **Verdant AI** — a fictional SaaS application where ordinary tasks become extraordinary user experiences... for all the wrong reasons.
 
-**Username:** Samuel
+This project is part of a comedic tech content series exploring bad user experience (UX), frustrating product decisions, and the everyday madness users encounter in poorly designed applications.
 
-**Password:** `Man`
+## About the Project
 
-**Website Error:** Password is too short.
+**Who Designed This Thing?!** is an interactive frontend experience created for Episode 01 of the series.
 
-**Samuel:** Okay, no problem.
+The episode follows a user attempting to create an account, generate a business plan, change a password, and eventually delete their account.
 
-*You clear the field and try again.*
+Sounds simple, right?
 
-**Password:** `SuperMan123456789`
+Not on Verdant AI.
 
-**Website Error:** Password is too long.
+From ridiculous password requirements to a business plan generator that fails successfully, and checkout pages that demand payment for basic account management, every interaction is designed to highlight how bad UX can turn simple tasks into frustrating experiences.
 
-**Samuel:** Excuse me? So you people want a password or a nickname?
+## Episode 01: Creating an Account
 
-*You delete it and try something else.*
+The experience follows this journey:
 
-**Password:** `Woman`
+1. **Registration** — Try creating an account while navigating increasingly ridiculous password validation rules.
+2. **Email Verification** — Successfully create an account, only to be told to check your inbox.
+3. **Business Plan Generator** — Attempt to generate a business plan, only to receive the response: "Your request failed successfully!"
+4. **Account Settings** — Navigate the account settings and discover the password management options.
+5. **Password Change** — Discover that changing your password requires a payment of **$328.99**.
+6. **Account Deletion** — Decide to leave Verdant AI, only to discover that deleting your account costs **$1,499.99**.
+7. **The Finale** — Ask the question every frustrated user eventually asks: "Who designed this thing?!"
 
-**Website Error:** Password is too weak. Please choose a stronger password.
+## Features
 
-**Samuel:** Ah! Woman is weak? Okay, let's try something else.
+- Interactive account registration experience.
+- Absurd password validation scenarios.
+- Simulated email verification screen.
+- AI business plan generator with deliberately unexpected results.
+- Account profile and security settings.
+- Ridiculous password-change checkout flow.
+- Account deletion checkout flow.
+- Responsive layouts for desktop and mobile.
+- Animated loading states and interaction feedback.
 
-*You pause, think for a moment and type again.*
+## Tech Stack
 
-**Password:** `Independent Woman`
+- **React** — UI development.
+- **TypeScript** — Type safety.
+- **Vite** — Development server and build tooling.
+- **Tailwind CSS v4** — Styling.
+- **shadcn/ui** — UI components.
+- **Lucide React** — Icons.
+- **React Router** — Client-side routing.
 
-**Website Error:** Password must contain at least one special character.
+## Getting Started
 
-**Samuel:** You want character? No problem.
+### Prerequisites
 
-*You add a special character.*
+- Node.js (22 or later recommended).
+- npm.
 
-**Password:** `Independent Woman$`
+### Installation
 
-**Website Error:** This password is already taken by samuel*****@gmail.com. Please choose another password.
+Clone the repository:
 
-*You slowly remove your hands from the keyboard.*
+```bash
+git clone https://github.com/samsmithKruz/ux-joke.git
+```
 
-**Samuel:** Wait. Somebody is using my password? And you're telling me their email address? Who are these people?
+Navigate into the project:
 
-*You look around in disbelief.*
+```bash
+cd ux-joke
+```
 
-## SCENE 2 — THE FINAL ATTEMPT
+Install dependencies:
 
-*You take a deep breath. You look determined.*
+```bash
+npm install
+```
 
-**Password:** `Strong Man with $$$`
+Start the development server:
 
-**Website:** Account created successfully!
+```bash
+npm run dev
+```
 
-**Samuel:** Finally! Jesus Christ!
+Open the local URL printed in your terminal, usually:
 
-*You lean back, relieved. Perhaps even give yourself a little round of applause.*
+```text
+http://localhost:5173
+```
 
-## SCENE 3 — THE APPLICATION EXPERIENCE
+### Production Build
 
-*You explore the application and discover an impressive feature.*
+To generate a production build:
 
-**Website:** AI Business Plan Generator.
+```bash
+npm run build
+```
 
-*Generate a comprehensive business plan for your next big idea using AI.*
+To preview the production build locally:
 
-**Samuel:** Oh, interesting! Let me try this.
+```bash
+npm run preview
+```
 
-*You enter a business idea.*
+## Application Routes
 
-**Business idea:** I want to build a technology company that provides innovative software solutions to businesses.
+| Route | Description |
+|---|---|
+| `/` | Redirects to registration |
+| `/register` | Account registration and email verification |
+| `/app` | AI business plan generator |
+| `/settings/security` | Profile and security settings |
+| `/checkout` | Password-change checkout |
+| `/checkout-delete` | Account-deletion checkout |
+| `/end` | Episode finale |
 
-*You click the button.*
+## Important Notes
 
-**Button:** Generate Business Plan.
+This is a **frontend-only demonstration project**.
 
-*Loading...*
+- No real user accounts are created.
+- Email verification is simulated.
+- The business plan generator does not connect to an AI service.
+- Checkout pages do not process payments.
+- No actual account deletion or password modification takes place.
+- All interactions are intended for demonstration and entertainment.
 
-*You wait.*
+**Please do not enter real payment card details or sensitive personal information.**
 
-*Loading...*
+## The Idea Behind the Series
 
-*You check the screen.*
+Good UX should make complex things feel simple.
 
-*Loading...*
+Users shouldn't have to fight an interface to accomplish ordinary tasks. Every unnecessary step, confusing message, inconsistent interaction, and poorly considered design decision adds friction to the experience.
 
-*You start getting impatient.*
+This series uses humour to explore those problems and encourage better conversations about product design, usability, and software development.
 
-*Loading...*
+Because sometimes, the best UX lesson starts with one simple question:
 
-**Website:** TASK FAILED SUCCESSFULLY.
-
-*Complete silence.*
-
-*You stare at the screen.*
-
-## SCENE 4 — THE PREMIUM PASSWORD
-
-*You decide to change your password because, honestly, you no longer trust this application.*
-
-*You navigate to Settings → Security → Change Password.*
-
-**Website:** Change Password.
-
-*You enter your current password and type a new one.*
-
-*You click "Update Password".*
-
-**Website:** This feature is available to Premium members only. Please upgrade your account to change your password.
-
-*You freeze.*
-
-*You slowly look at the screen.*
-
-**Samuel:** Wait... what?
-
-*You read the message again.*
-
-**Samuel:** So I need to pay to change my own password?
-
-*Pause.*
-
-**Samuel:** Ah! So if somebody hacks my account, I should subscribe first?
-
-*You slowly turn towards the camera.*
-
-## SCENE 5 — THE CONFRONTATION
-
-**Samuel:** Who built this thing?
-
-*Pause.*
-
-Can someone please help me find the developers who worked on this application?
-
-*Pause again. Look genuinely concerned.*
-
-I need to have a conversation with them.
-
-*End scene.*
+**Who designed this thing?!**
 
 ---
 
-**END SCREEN**
+## Creator
 
-CODE WITH SAMUEL BENNY
+**Code with Samuel Benny**
 
-*Where technology meets everyday madness.*
+Where technology meets everyday madness.
+
+- GitHub: [@samsmithKruz](https://github.com/samsmithKruz)
+- LinkedIn: [Samuel Benny](https://www.linkedin.com/in/smithkruz/)
+
+---
+
+*Built for laughs. Inspired by real UX frustrations. No actual users were harmed by Verdant AI.*
