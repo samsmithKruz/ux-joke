@@ -1,0 +1,59 @@
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 180 180"
+  fill="none"
+>
+  <defs>
+    <linearGradient id="leaf" x1="35" y1="30" x2="145" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#86EFAC"/>
+      <stop offset="1" stop-color="#16A34A"/>
+    </linearGradient>
+    <linearGradient id="core" x1="65" y1="60" x2="115" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DCFCE7"/>
+      <stop offset="1" stop-color="#4ADE80"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main organic intelligence structure -->
+  <path
+    d="M90 19
+       C119 19 148 43 148 76
+       C148 110 122 147 90 161
+       C58 147 32 110 32 76
+       C32 43 61 19 90 19Z"
+    stroke="url(#leaf)"
+    stroke-width="9"
+    stroke-linecap="round"
+  />
+
+  <!-- Neural connections -->
+  <path
+    d="M90 48V132
+       M48 76L90 90
+       M132 76L90 90
+       M59 119L90 90
+       M121 119L90 90"
+    stroke="#22C55E"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+
+  <!-- Intelligence nodes -->
+  <circle cx="90" cy="48" r="9" fill="#86EFAC"/>
+  <circle cx="48" cy="76" r="9" fill="#4ADE80"/>
+  <circle cx="132" cy="76" r="9" fill="#4ADE80"/>
+  <circle cx="59" cy="119" r="9" fill="#16A34A"/>
+  <circle cx="121" cy="119" r="9" fill="#16A34A"/>
+
+  <!-- Central AI core -->
+  <circle cx="90" cy="90" r="21" fill="#14532D"/>
+  <circle cx="90" cy="90" r="14" fill="url(#core)"/>
+  <path
+    d="M84 90L89 95L98 84"
+    stroke="#14532D"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
